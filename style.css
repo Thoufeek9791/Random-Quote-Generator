@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@1,700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+   background-color: #fdc5f5;
+}
+
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   padding: 25px;
+   height: 500px;
+   width: 100%;
+}
+
+ h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #7209b7;
+    font-size: 3rem;
+}
+
+.quotes {
+    font-family: 'Dancing Script', cursive;
+    color: #f72585;
+    font-weight: 900;
+    font-size: 4rem;
+    display: inline;
+}
+
+.fa-solid {
+    font-size: 3rem;
+}
+
+.author {
+    text-align: right;
+    color: #3a0ca3;
+    font-size: 1.5rem;
+    display: block;
+}
+
+button {
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    background-color: #f72585;
+    color: #4cc9f0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darksalmon;
+    color: #f00;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .fa-solid {
+        font-size: 2.5rem;
+    }
+
+    .quotes {
+        font-size: 3rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
