@@ -84,8 +84,8 @@ body {
         font-size: 1rem;
     }
 
-    button {
+    .fa-repeat {
         font-size: 1rem;
-        padding: 8px 16px;
+        
     }
 }
