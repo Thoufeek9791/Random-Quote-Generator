@@ -61,10 +61,10 @@ body {
     font-size: 2rem;
 }
 
-.fa-repeat:hover {
+/* .fa-repeat:hover {
     background-color: darksalmon;
     color: #f00;
-}
+} */
 
 @media (max-width: 700px) {
     h1 {
@@ -86,6 +86,5 @@ body {
 
     .fa-repeat {
         font-size: 1rem;
-        
     }
 }
